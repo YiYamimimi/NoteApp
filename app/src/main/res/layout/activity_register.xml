@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+    <EditText
+        android:id="@+id/Registername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyEditStyle"
+        android:hint="请输入账号名"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/Registerpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyEditStyle"
+        android:hint="请输入密码"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/againpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyEditStyle"
+        android:hint="请再次输入密码进行确认"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/Registerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="注册" />
+</LinearLayout>

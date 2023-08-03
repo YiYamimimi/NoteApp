@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colormain">@color/brown1</color>
+    <color name="colormain2">@color/brown2</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brown">#FFEFE8E1</color>
+    <color name="brown1">#DDCDBE</color>
+    <color name="brown2">#B39B9B</color>
+    <color name="brown3">#A19494</color>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="accent">#448AFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+
+
+
+
+    <!-- 倒计时钟 -->
+    <color name="colorStrokeCircle">#55ffffff</color>
+    <color name="colorStrokeArc">#ffffff</color>
+</resources>
